@@ -96,12 +96,12 @@ function About() {
             <div className="aboutcircle5hidden" id="ac5" />
             <div className="aboutcircle6hidden" id="ac6" />
             <p>
-            I’m Apoorva Vaishya, a final-year Computer Science undergraduate with a passion for AI, 
-            full-stack development, and data-driven problem solving. 
-            I’ve built impactful projects ranging from an AI-powered multilingual tarot reading chatbot to brain tumor detection models using deep learning, 
-            and secured top positions in national competitions like Smart India Hackathon 2024.
-             With hands-on experience in LangChain, Pinecone, MERN stack, and advanced NLP techniques, 
-             I aim to create intelligent, scalable, and user-focused solutions that bridge innovation and real-world needs.
+              I’m Apoorva Vaishya, a final-year Computer Science undergraduate with a passion for AI,
+              full-stack development, and data-driven problem solving.
+              I’ve built impactful projects ranging from an AI-powered multilingual tarot reading chatbot to brain tumor detection models using deep learning,
+              and secured top positions in national competitions like Smart India Hackathon 2024.
+              With hands-on experience in LangChain, Pinecone, MERN stack, and advanced NLP techniques,
+              I aim to create intelligent, scalable, and user-focused solutions that bridge innovation and real-world needs.
               <br /> Thank You.
             </p>
           </div>
@@ -109,24 +109,24 @@ function About() {
         <div className="details">
           <div className="hidden" ref={containerRef}>
             Number of projects
-            <div className="detssubbox ">7</div>
+            <div className="detssubbox ">6</div>
           </div>
           <div className="hidden" ref={containerRef2}>
             LeetCode Rating:
-            <div className="detssubbox">1922</div>
+            <div className="detssubbox">1600+</div>
           </div>
           <div className="hidden" ref={containerRef3}>
             LeetCode Questions:
             <div className="detssubbox">450+</div>
           </div>
           <div className="hidden" ref={containerRef4}>
-            Codeforces Rating:
-            <div className="detssubbox">1252</div>
+            published articles:
+            <div className="detssubbox">1</div>
           </div>
-          <div className="hidden" ref={containerRef5}>
+          {/* <div className="hidden" ref={containerRef5}>
             CodeChef Rating:
             <div className="detssubbox">1656</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

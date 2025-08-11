@@ -1,9 +1,9 @@
 import React from "react";
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import "./PageFace.css";
-import neelimg from "../images/Neel DP New.png";
+import apoorvaimg from "../images/new_apoorva.png";
 import leetcodeicon from "../images/leetcode-icon.png";
-import codeforces from "../images/codeforces.png";
+import medium from "../images/Medium-Logo.jpg";
 import github from "../images/github.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +18,7 @@ function PageFace() {
         <Lottie animationData={backanim} className="backanimation"></Lottie>
       </div>
       <div className="leftface">
-        <img src={neelimg} className="neelimg"></img>
+        <img src={apoorvaimg} className="apoorvaimg"></img>
         <div className="circle" />
         <div className="circle2" />
         <div className="circle5" />
@@ -51,14 +51,14 @@ function PageFace() {
         >
           <img src={leetcodeicon} className="leetcodeicon " />
         </button>
-        {/* <button
+        <button
           className="codeforces"
           onClick={() => {
-            window.open("https://codeforces.com/profile/neelaksh10singh");
+            window.open("https://medium.com/@apoorvavaishya04");
           }}
         >
-          <img src={codeforces} className="codeforcesicon" />
-        </button> */}
+          <img src={medium} className="codeforcesicon" />
+        </button>
         <button
           className="github"
           onClick={() => {
@@ -97,8 +97,7 @@ function PageFace() {
             data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
-            Next, React, Angular, Web3, PHP, Express, Node, SQL, MongoDB -
-            Complete Package
+            C++, Python, Node.js, LangChain, Hugging Face APIs, MongoDB, Pinecone, MERN Stack, RAG, LLM integration and Deep Learning.
           </div>
           <button
             className="Getresume"
