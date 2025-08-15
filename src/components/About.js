@@ -109,7 +109,7 @@ function About() {
         <div className="details">
           <div className="hidden" ref={containerRef}>
             Number of projects
-            <div className="detssubbox ">6</div>
+            <div className="detssubbox ">10+</div>
           </div>
           <div className="hidden" ref={containerRef2}>
             LeetCode Rating:

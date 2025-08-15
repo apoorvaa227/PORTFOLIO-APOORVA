@@ -2,27 +2,23 @@ import wheelitphone from '../images/wheelitphone.png'
 import humanizeAI from '../images/humanizeAI.png'
 import GraphCrawler1 from '../images/GraphCrawler1.png'
 import GraphCrawler2 from '../images/GraphCrawler2.png'
-import Resme from '../images/ResMe.png'
-import resmephone from '../images/ResMephone.png'
-import ourspace from '../images/ourspace.png'
-import ourspacephone from '../images/ourspacephone.png'
+import DSASolver1 from '../images/DSA-Solver  (1).png'
+import DSASolver from '../images/DSA-Solver  (2).png'
 import homepage_PocketPals from '../images/homepage_PocketPals.png'
 import settleup_pocketpals from '../images/settleup_pocketpals.png'
-import show from '../images/ss2.png'
-import showphone from '../images/ss4.jpg'
 import brainTumorDetectionImage from '../images/brain_tumor1.png'
 import brainTumorDetectionBg from '../images/brain_tumor2.png'
 
 export const projectdets = [
   {
-    id: 0,
+    id: 4,
     name: 'FriendlyAI',
     startdate: '10/05/2025',
     duration: '15 days',
     TechStack: ['React', 'React Router', 'Google Gemini API'],
     shortdesc: 'Open-source AI-powered creative writing suite',
     im: humanizeAI,       // (Replace with your AI Writing Assistant project image variable)
-    backim: wheelitphone, // (Replace with your background image variable if any)
+    backim: humanizeAI, // (Replace with your background image variable if any)
     desc: `An all-in-one AI writing assistant designed for authors, screenwriters, and creators. 
 This open-source suite offers powerful tools for every stage of the writing process—from brainstorming and paraphrasing to manuscript analysis and tone optimization. 
 Built as a free alternative to paid platforms, it leverages the Google Gemini API to provide nuanced, context-aware writing assistance across multiple creative formats.`,
@@ -36,7 +32,7 @@ Perfect for novelists, screenwriters, and creative writers looking to polish the
     id: 1,
     name: 'Traversal Visualizer',
     startdate: '20/07/2025',
-    duration: '5 days',
+    duration: '10 days',
     TechStack: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Icons'],
     shortdesc: 'Interactive pathfinding algorithm visualizer',
     im: GraphCrawler1,      // replace with your project image variable
@@ -95,29 +91,17 @@ Ideal for groups, friends, and roommates to track shared expenses efficiently.`,
     link2: 'https://github.com/apoorvaa227/PocketPals',
   },
   {
-    id: 4,
-    name: 'OurSpace',
-    startdate: '24/07/2023',
-    duration: '10 days',
-    TechStack: ['React', 'Redux', 'FireBase'],
-    shortdesc: 'A blogging website',
-    im: ourspace,
-    backim: ourspacephone,
-    desc: 'Blogs are a fun way of connecting with the world and sharing your ideas and thoughts while also reading blogs from a bunch of more prople. This website intends to provide this experience. Whether you just want to share updates with your family and friends or you want to start a blog and build a broader audience, you can do it all.',
-    usage:
-      'You can create your own blog with tags and photo, post it on the website, read all othe blogs, filter them out based on the topic you want to read about, like and comment on blogs, and also edit or delete your own blogs.',
-  },
-  // {
-  //   id: 5,
-  //   name: 'ResMe',
-  //   startdate: '16/07/2023',
-  //   duration: '5 days',
-  //   TechStack: ['React', 'Redux'],
-  //   shortdesc: 'Resume Generater Website',
-  //   im: Resme,
-  //   backim: resmephone,
-  //   desc: 'Your resume communicates your qualifications and your brand—who you are and what makes you different—to employers and recruiters. In a tough job market, you need a resume that helps you stand out in a sea of applicants. This is the CV that gets the job done.',
-  //   usage:
-  //     'Very easy to use, just enter your details step by step and voila! You have it, your resume ready in minutes. No limit on the number of CVs you can create. Unlimited downloading in PDF. Limitless creativity.',
-  // },
+    id: 0,
+    name: 'AlgoGenius-AI',
+    startdate: '24/07/2025',
+    duration: '25 days',
+    TechStack: ['React', 'Groq API ', 'prisma', 'Tailwind CSS'],
+    shortdesc: 'AI DSA Solver and Mentor ',
+    im: DSASolver,
+    backim: DSASolver1,
+    desc: "AlgoGenius is a comprehensive web application designed to help users master Data Structures and Algorithms (DSA) through interactive, AI-driven practice. It provides detailed, step-by-step solutions for a vast database of problems across various topics. Leveraging the power of the Groq API, AlgoGenius offers educational and clear explanations, code solutions, complexity analysis, and dry run examples, making complex concepts easy to understand for students and professionals preparing for technical interviews.",
+    usage: "To run AlgoGenius locally:\n1. Clone the repository: `git clone https://github.com/apoorvaa227/AlgoGenius.git`\n2. Navigate to the project directory: `cd AlgoGenius`\n3. Install dependencies: `pip install -r requirements.txt`\n4. Set up your Groq API key in a `.env` file.\n5. Run the Flask application: `flask run` or `python app.py`\n6. Access the app at `http://localhost:5000` in your web browser.",
+    link1: 'https://github.com/apoorvaa227/AlgoGenius',
+    link2: 'https://algogenius.onrender.com/',
+  }
 ]
